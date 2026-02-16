@@ -1,9 +1,13 @@
 include:
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: totem_left
-  - board: xiao_ble
+    artifact_name: totem-left
+  - board: seeeduino_xiao_ble
     shield: totem_right
-  - board: xiao_ble
+    artifact_name: totem-right
+  - board: seeeduino_xiao_ble
+    shield: totem_dongle dongle_screen
+    artifact_name: totem-dongle
+  - board: seeeduino_xiao_ble
     shield: settings_reset
-  - board: xiao_ble
-    shield: totem_dongle prospector_adapter
+    artifact_name: totem-settings-reset
